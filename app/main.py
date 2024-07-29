@@ -1,6 +1,7 @@
 from __future__ import annotations
 import math
 
+
 class Vector:
     def __init__(self, x_coord: int | float, y_coord: int | float) -> None:
         self.x = round(x_coord, 2)
